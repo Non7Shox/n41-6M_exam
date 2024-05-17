@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Logout</title>
+</head>
+<body>
+  <h1>Are you sure you want to log out?</h1>
+  <form method="POST" action="{% url 'logout' %}">
+    {{ form.as_p }}  # Use the form's as_p method to render all fields
+  </form>
+</body>
+</html>

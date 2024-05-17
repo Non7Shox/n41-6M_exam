@@ -1,0 +1,140 @@
+/* Reset styles */
+body, h1, h2, h3, p, textarea, button, label, select, option {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Book details section */
+.book-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.book-image img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.book-info {
+    max-width: 600px;
+}
+
+.book-info h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rating label {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.rating select {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.description h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    text-align: left;
+}
+
+/* Add comment section */
+.add-comment {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.add-comment h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.add-comment form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-comment form button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-comment form button:hover {
+    background-color: #0056b3;
+}
+
+/* Comments section */
+.comments {
+    text-align: center;
+}
+
+.comments h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.comment p {
+    margin-bottom: 5px;
+}
+
+.comment-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.comment-author {
+    font-size: 14px;
+    color: #666;
+}
